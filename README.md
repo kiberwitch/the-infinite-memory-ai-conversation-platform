@@ -27,4 +27,4 @@ View and delete notes from memory at any time. Purification of memory completely
 ** Your strategy: ** regularly add important information to the memory, purify outdated data and use the context to obtain more relevant answers. Your reward is AI, which over time understands you better and better.
 
 
-[![DEMO - START](https://img.shields.io/badge/DEMO_-_START-black.svg?style=for-the-badge&logo=ai&logoColor=blue&color=black)](ваш-url-здесь)
+[![DEMO - START](https://img.shields.io/badge/DEMO_-_START-black.svg?style=for-the-badge&logo=ai&logoColor=blue&color=black)](https://kiberwitch.github.io/the-infinite-memory-ai-conversation-platform)
