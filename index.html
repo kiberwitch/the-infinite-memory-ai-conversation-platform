@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pollinations AI</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Pollinations AI с openaAI</h1>
+        <p>AI запоминает всё, что вы ему скажете</p>
+      </div>
+
+      <div class="chat-container">
+        <div class="memory-panel">
+          <h3>Постоянная память</h3>
+          <div id="memoryList"></div>
+          <button class="clear-button" onclick="clearMemory()">
+            Очистить память
+          </button>
+        </div>
+
+        <div class="chat-area">
+          <div class="messages" id="messages">
+            <div class="message ai-message">
+              Привет! Я AI с памятью. Всё, что вы мне скажете в разделе
+              "Постоянная память", я запомню навсегда!
+            </div>
+          </div>
+
+          <div class="input-area">
+            <textarea
+              id="userInput"
+              placeholder="Введите ваше сообщение..."
+              rows="3"
+            ></textarea>
+            <div class="buttons-container">
+              <button class="send-button" onclick="sendMessage()">
+                Отправить сообщение
+              </button>
+              <button class="memory-button" onclick="addToMemory()">
+                Сохранить в память
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
